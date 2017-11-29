@@ -44,11 +44,11 @@ public class Backet {
 		    sum = (goodsWithoutDiscount*goodsMap.get(key).getPrice())+(discountedGoods*(goodsMap.get(key).getPrice()/2));
 		    sumVaucher += sum;
 		  
-		    //System.out.println(key+" - "+ formatMoney(sum)+" - "+sum);
+		   
 		   
 	} 
 		return sumVaucher;
-		//System.out.println("all - "+ formatMoney(sumVaucher)+" - "+sumVaucher);
+		
 	}
 	
 	public String formatMoney(int price) {
